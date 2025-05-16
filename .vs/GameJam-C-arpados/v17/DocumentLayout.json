@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\nicolas\\unity\\gamejam-c-arpados\\assets\\01_scripts\\suelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\suelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Suelo.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Suelo.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Suelo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T05:45:02.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Player.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAIwJgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T04:13:08.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

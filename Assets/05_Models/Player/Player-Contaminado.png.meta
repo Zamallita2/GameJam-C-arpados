@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 4d8dd3bb587bce049ae78949cd3e5bba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4167066429190055072
+    second: Player-Contaminado_0
+  - first:
+      213: 5467361246289617940
+    second: Player-Contaminado_1
+  - first:
+      213: 1674456589814569510
+    second: Player-Contaminado_2
+  - first:
+      213: 7589408767580714935
+    second: Player-Contaminado_3
+  - first:
+      213: 2946238046708797187
+    second: Player-Contaminado_4
+  - first:
+      213: 3084260206347810560
+    second: Player-Contaminado_5
+  - first:
+      213: 5485585961019378060
+    second: Player-Contaminado_6
+  - first:
+      213: -2007871820243579144
+    second: Player-Contaminado_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player-Contaminado_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 288
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bdba4292b9b26c0800000000000000
+      internalID: -4167066429190055072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_1
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 304
+        width: 256
+        height: 144
+      alignment: 9
+      pivot: {x: 0.13215423, y: 0.21124373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41464df0618ffdb40800000000000000
+      internalID: 5467361246289617940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 240
+        height: 144
+      alignment: 9
+      pivot: {x: 0.22421081, y: 0.8142346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a95b3956ddc3710800000000000000
+      internalID: 1674456589814569510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 240
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b732ee401ff25960800000000000000
+      internalID: 7589408767580714935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 192
+        width: 224
+        height: 144
+      alignment: 9
+      pivot: {x: 0.22701618, y: 0.8397132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f81d5c4e323e820800000000000000
+      internalID: 2946238046708797187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 160
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007fb3a015e7dca20800000000000000
+      internalID: 3084260206347810560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 112
+        height: 112
+      alignment: 9
+      pivot: {x: 0.43448395, y: 0.9149351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c890e6f1e57b02c40800000000000000
+      internalID: 5485585961019378060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-Contaminado_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 112
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4672421, y: 0.9258545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe4dd7b73b9224e0800000000000000
+      internalID: -2007871820243579144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -208, y: -214}
+      - {x: -304, y: -214}
+      - {x: -306, y: -216}
+      - {x: -306, y: -328}
+      - {x: -190, y: -328}
+      - {x: -190, y: -280}
+      - {x: -192, y: -278}
+      - {x: -206, y: -216}
+    - - {x: -48, y: -214}
+      - {x: -144, y: -214}
+      - {x: -146, y: -216}
+      - {x: -146, y: -328}
+      - {x: -30, y: -328}
+      - {x: -30, y: -280}
+      - {x: -32, y: -278}
+      - {x: -46, y: -216}
+    - - {x: -291, y: 10}
+      - {x: -306, y: -18}
+      - {x: -306, y: -154}
+      - {x: -268, y: -170}
+      - {x: -62, y: -170}
+      - {x: -62, y: 10}
+    - - {x: 334, y: -86}
+      - {x: 334, y: -170}
+      - {x: 421, y: -170}
+      - {x: 434, y: -156}
+      - {x: 434, y: -88}
+      - {x: 421, y: -86}
+    - - {x: -466, y: 10}
+      - {x: -560, y: 10}
+      - {x: -560, y: -66}
+      - {x: -557, y: -95}
+      - {x: -506, y: -138}
+      - {x: -341, y: -138}
+      - {x: -318, y: -107}
+      - {x: -318, y: -54}
+      - {x: -319, y: -52}
+    - - {x: -2, y: 10}
+      - {x: -2, y: -128}
+      - {x: 36, y: -138}
+      - {x: 226, y: -138}
+      - {x: 226, y: -56}
+      - {x: 224, y: -54}
+      - {x: 90, y: 10}
+    - - {x: 526, y: 104}
+      - {x: 416, y: 122}
+      - {x: 331, y: 122}
+      - {x: 302, y: 97}
+      - {x: 302, y: -20}
+      - {x: 303, y: -26}
+      - {x: 368, y: -26}
+      - {x: 560, y: 22}
+      - {x: 560, y: 106}
+      - {x: 528, y: 106}
+    - - {x: -283, y: 328}
+      - {x: -322, y: 288}
+      - {x: -322, y: 64}
+      - {x: -286, y: 54}
+      - {x: -50, y: 54}
+      - {x: -30, y: 96}
+      - {x: -30, y: 282}
+      - {x: -90, y: 328}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

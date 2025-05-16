@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: 2d79f654530546e4dbdbcc73926c2da7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8236019517805068355
+    second: Amigable-Contaminado_0
+  - first:
+      213: 8196588238840580846
+    second: Amigable-Contaminado_1
+  - first:
+      213: -7776054959858689656
+    second: Amigable-Contaminado_2
+  - first:
+      213: 644396631557611624
+    second: Amigable-Contaminado_3
+  - first:
+      213: 3872789938766720996
+    second: Amigable-Contaminado_4
+  - first:
+      213: -6157400762362348704
+    second: Amigable-Contaminado_5
+  - first:
+      213: -1381571823073513173
+    second: Amigable-Contaminado_6
+  - first:
+      213: 8619385452201323568
+    second: Amigable-Contaminado_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Amigable-Contaminado_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 160
+        height: 192
+      alignment: 9
+      pivot: {x: 0.51566, y: 0.075875916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34084f97d183c4270800000000000000
+      internalID: 8236019517805068355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 64
+        height: 176
+      alignment: 9
+      pivot: {x: 0.7153244, y: 0.82031703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeacc3a639120c170800000000000000
+      internalID: 8196588238840580846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 192
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88955bb9637e51490800000000000000
+      internalID: -7776054959858689656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 223
+        width: 64
+        height: 176
+      alignment: 9
+      pivot: {x: 0.18680096, y: 0.82031703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860237e725b51f800800000000000000
+      internalID: 644396631557611624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48042536, y: 0.84451866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efa5ed2ee9eeb530800000000000000
+      internalID: 3872789938766720996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 64
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48042488, y: 0.8601786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b3ca341a48c8aa0800000000000000
+      internalID: -6157400762362348704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 80
+      alignment: 9
+      pivot: {x: 0.31730047, y: 0.86017954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21b30e2fbba3dce0800000000000000
+      internalID: -1381571823073513173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amigable-Contaminado_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 96
+        height: 80
+      alignment: 9
+      pivot: {x: 0.31730017, y: 0.8914994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c21acb6653e9770800000000000000
+      internalID: 8619385452201323568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
