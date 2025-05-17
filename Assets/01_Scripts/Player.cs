@@ -128,19 +128,24 @@ public class Player : MonoBehaviour
         {
             for (int i = -1; i <= 1; i++)
             {
-                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-                Vector2 dir = Quaternion.Euler(0, 0, i * 15) * firePoint.right;
-                rb.velocity = dir.normalized * bulletSpeed;
+                Vector2 dir = (Quaternion.Euler(0, 0, i * 15) * firePoint.right).normalized;
+                rb.velocity = dir * bulletSpeed;
+
+                Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), GetComponent<Collider2D>());
             }
         }
         else
         {
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.velocity = firePoint.right * bulletSpeed;
+
+            Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
     }
+
 
 
 

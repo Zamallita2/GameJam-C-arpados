@@ -663,6 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootCooldown: 2
   visionRange: 6
+  bulletSpeed: 5
   player: {fileID: 0}
   shootPoint: {fileID: 3439246332580224221}
   bulletPrefab: {fileID: 4588502921390970709, guid: 8c1ec8a9fcc02b74dac1f533a55970a3, type: 3}
@@ -792,7 +793,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6513739336843895286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09, y: -0.33, z: -2.7763834}
+  m_LocalPosition: {x: 1.27, y: -0.32, z: -2.7763834}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5925212683171845641}
