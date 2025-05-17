@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 1273169659180521136}
   m_Layer: 0
   m_Name: Shooter-Enemy
-  m_TagString: Enemy
+  m_TagString: ShooterEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -662,15 +662,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootCooldown: 2
-  visionRange: 6
-  bulletSpeed: 5
+  visionRange: 15
+  bulletSpeed: 12
+  moveSpeed: 2
+  life: 3
   player: {fileID: 0}
   shootPoint: {fileID: 3439246332580224221}
-  bulletPrefab: {fileID: 4588502921390970709, guid: 8c1ec8a9fcc02b74dac1f533a55970a3, type: 3}
+  bulletPrefab: {fileID: 9123412856396626689, guid: 0d52a1ad3c72b4646974a502ad85a14d, type: 3}
   powerUps:
   - {fileID: 7653087723818656370, guid: cbe4417abbaf4da4b96ce22c24808d67, type: 3}
   - {fileID: 5173091682321088395, guid: 4e500950ecc28b149acdb6066cfc9c94, type: 3}
   - {fileID: 581054671271094555, guid: dfb0db017727b264fbbca3def05b5be9, type: 3}
+  rb: {fileID: 4903682178110213859}
 --- !u!212 &8724802753112386537
 SpriteRenderer:
   m_ObjectHideFlags: 0

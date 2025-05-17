@@ -2,26 +2,32 @@ using UnityEngine;
 
 public class NormalEnemy : MonoBehaviour
 {
-    public float patrolSpeed = 2f;
-    public float detectionRange = 40f;
+    public float moveSpeed = 2f;
+    public float detectionRange = 10f;
     public float jumpForce = 6f;
     public int maxHealth = 3;
-    private int currentHealth;
 
     public Transform groundCheck;
     public LayerMask groundLayer;
-    private Rigidbody2D rb;
-    private GameObject player;
+    public Transform player;
+    public Rigidbody2D rb;
+    public GameObject[] powerUpPrefabs;
+
+    private int currentHealth;
     private bool isGrounded;
     private bool isFacingRight = true;
 
-    public GameObject[] powerUpPrefabs;
+    private float idleTimer = 0f;
+    private float idleDuration = 0f;
+    private int idleDirection = 1; // -1 izquierda, 1 derecha
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
-        player = GameObject.FindGameObjectWithTag("Player");
+        if (player == null)
+            player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+        SetRandomDirection();
     }
 
     void Update()
@@ -29,36 +35,61 @@ public class NormalEnemy : MonoBehaviour
         if (player == null) return;
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        float distance = Vector2.Distance(transform.position, player.position);
 
-        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-
-        Vector2 direction = (player.transform.position - transform.position).normalized;
-
-        if (distanceToPlayer <= detectionRange)
+        if (distance <= detectionRange)
         {
-            rb.velocity = new Vector2(direction.x * patrolSpeed, rb.velocity.y);
-
-            if (isGrounded && Mathf.Abs(player.transform.position.x - transform.position.x) < 1.5f)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            }
-
-            if ((direction.x > 0 && !isFacingRight) || (direction.x < 0 && isFacingRight))
-                Flip();
+            MoveTowardsPlayer();
         }
         else
         {
-            rb.velocity = new Vector2(0, rb.velocity.y); 
+            Patrol();
         }
+    }
+
+    void MoveTowardsPlayer()
+    {
+        float dirX = Mathf.Sign(player.position.x - transform.position.x);
+        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+
+        // Girar según dirección del jugador
+        if ((dirX > 0 && !isFacingRight) || (dirX < 0 && isFacingRight))
+            Flip();
+
+        // Saltar si están casi alineados y tocando el suelo
+        if (isGrounded && Mathf.Abs(player.position.x - transform.position.x) < 1.5f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+
+    void Patrol()
+    {
+        idleTimer += Time.deltaTime;
+        rb.velocity = new Vector2(idleDirection * moveSpeed, rb.velocity.y);
+
+        if ((idleDirection > 0 && !isFacingRight) || (idleDirection < 0 && isFacingRight))
+            Flip();
+
+        if (idleTimer >= idleDuration)
+        {
+            SetRandomDirection();
+        }
+    }
+
+    void SetRandomDirection()
+    {
+        idleDirection = Random.value > 0.5f ? 1 : -1;
+        idleDuration = Random.Range(2f, 5f);
+        idleTimer = 0f;
     }
 
     void Flip()
     {
         isFacingRight = !isFacingRight;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        transform.rotation = Quaternion.Euler(0, isFacingRight ? 0 : 180, 0);
     }
+
 
     public void TakeDamage(int amount)
     {
@@ -89,7 +120,6 @@ public class NormalEnemy : MonoBehaviour
                 p.SendMessage("TakeDamage", 1);
             }
 
-            Destroy(gameObject);
         }
     }
 }

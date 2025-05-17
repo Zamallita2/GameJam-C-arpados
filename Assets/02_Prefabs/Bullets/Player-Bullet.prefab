@@ -49,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   lifeTime: 2
+  playerBullet: 1
 --- !u!212 &2646346646111928061
 SpriteRenderer:
   m_ObjectHideFlags: 0

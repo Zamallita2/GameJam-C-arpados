@@ -57,7 +57,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4732167350492546050}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.763907, y: 1.2413836, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -65,7 +65,7 @@ Transform:
   - {fileID: 2342234396389283501}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &-1527099835642384549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,14 +78,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99566b306be85d5449b4eeebccd3b54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolSpeed: 2
-  detectionRange: 5
-  jumpForce: 5
+  moveSpeed: 2
+  detectionRange: 20
+  jumpForce: 11
   maxHealth: 3
   groundCheck: {fileID: 2342234396389283501}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  player: {fileID: 0}
+  rb: {fileID: 4732167350492546049}
   powerUpPrefabs:
   - {fileID: 7653087723818656370, guid: cbe4417abbaf4da4b96ce22c24808d67, type: 3}
   - {fileID: 5173091682321088395, guid: 4e500950ecc28b149acdb6066cfc9c94, type: 3}

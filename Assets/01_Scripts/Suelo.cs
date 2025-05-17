@@ -10,4 +10,9 @@ public class Suelo : MonoBehaviour
     {
         return damageAmount;
     }
+
+    public void TakeDamage()
+    {
+        Destroy(gameObject);
+    }
 }

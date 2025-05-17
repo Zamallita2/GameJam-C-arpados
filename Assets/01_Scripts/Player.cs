@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     public float bulletSpeed = 10f;
     public int bulletDamage = 1;
     public bool tripleShot = false;
-
+    private string lastRot="D";
 
 
     public Transform groundCheck;
@@ -25,9 +25,6 @@ public class Player : MonoBehaviour
     private Animator animator;
 
 
-
-    private Vector2 lastHorizontalDirection = Vector2.right;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,89 +34,102 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        // Verificamos si el michi está en el suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
 
+
+
+        // Animación de salto 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetTrigger("isJumping");
+            animator.SetTrigger("isJumping"); // ¡Saltito kawaii! 
         }
 
-        Vector2 inputDirection = Vector2.zero;
 
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            inputDirection = new Vector2(0, 4);
-        }
-        else if (Input.GetKey(KeyCode.DownArrow))
-        {
-            inputDirection = new Vector2(0, -2);
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            inputDirection = new Vector2(2, 0);
-            lastHorizontalDirection = Vector2.right;
-        }
-        else if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            inputDirection = new Vector2(-2, 0);
-            lastHorizontalDirection = Vector2.left;
-        }
 
-        // Movimiento horizontal
-        if (inputDirection.x != 0)
+        // Movimiento a la derecha 
+        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            float moveX = Mathf.Sign(inputDirection.x) * moveSpeed * Time.deltaTime;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
+
+
+            firePoint.rotation = Quaternion.Euler(0, 0, 0);
+            firePoint.localPosition = new Vector2(1.44f, 0f);
+
+
+
+            lastRot = "D";
         }
-
-        if (lastHorizontalDirection == Vector2.right)
-            transform.rotation = Quaternion.Euler(0, 0, 0); 
-        else if (lastHorizontalDirection == Vector2.left)
-            transform.rotation = Quaternion.Euler(0, 180, 0); 
-
-
-        // Firepoint dirección
-        Vector2 firePointDirection;
-
-        if (inputDirection.y != 0)
+        // Movimiento a la izquierda 
+        else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            firePointDirection = new Vector2(0, inputDirection.y);
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+
+
+
+            firePoint.rotation = Quaternion.Euler(0, 180, 0);
+            firePoint.localPosition = new Vector2(1.44f, 0f);
+
+
+
+            lastRot = "I";
         }
-        else if (inputDirection.x != 0)
+
+
+
+        // Mirar arriba 
+        else if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
-            firePointDirection = new Vector2(inputDirection.x, 0);
+            firePoint.rotation = Quaternion.Euler(0, 0, 90);
+            firePoint.localPosition = new Vector2(0f, 1.7f);
         }
+
+
+
+        // Mirar abajo 
+        else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        {
+            firePoint.rotation = Quaternion.Euler(0, 0, -90);
+            firePoint.localPosition = new Vector2(0f, -1.4f);
+        }
+
+
+
+        // Posición default cuando no se presiona nada 
         else
         {
-            firePointDirection = lastHorizontalDirection * 2;
+            if (lastRot == "D")
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                firePoint.rotation = Quaternion.Euler(0, 0, 0);
+                firePoint.localPosition = new Vector2(1.44f, 0f);
+            }
+            else if (lastRot == "I")
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+                firePoint.rotation = Quaternion.Euler(0, 180, 0);
+                firePoint.localPosition = new Vector2(1.44f, 0f);
+            }
         }
 
-        
-        firePoint.localPosition = new Vector3(firePointDirection.x, firePointDirection.y, firePoint.localPosition.z);
-
-        
-        Vector2 realDirection = firePointDirection.normalized;
-
-        
-        if (lastHorizontalDirection == Vector2.left)
-            realDirection.x *= -1;
-
-        float angle = Mathf.Atan2(realDirection.y, realDirection.x) * Mathf.Rad2Deg;
-        firePoint.rotation = Quaternion.Euler(0, 0, angle);
 
 
-        // ANIMACIONES
-        animator.SetBool("isWalking", inputDirection.x != 0);
-        animator.SetBool("isLookingUp", Input.GetKey(KeyCode.UpArrow));
-        animator.SetBool("isLookingDown", Input.GetKey(KeyCode.DownArrow));
+        // Animacioncitas tiernas uwu 
+        animator.SetBool("isWalking", Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A));
+        animator.SetBool("isLookingUp", Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W));
+        animator.SetBool("isLookingDown", Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S));
 
+
+
+        // Pew pew nyaa~
         if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
-
     }
 
     void Shoot()
@@ -128,7 +138,7 @@ public class Player : MonoBehaviour
         {
             for (int i = -1; i <= 1; i++)
             {
-                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
                 Vector2 dir = (Quaternion.Euler(0, 0, i * 15) * firePoint.right).normalized;
                 rb.velocity = dir * bulletSpeed;
@@ -138,7 +148,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.velocity = firePoint.right * bulletSpeed;
 
@@ -146,11 +156,7 @@ public class Player : MonoBehaviour
         }
     }
 
-
-
-
-
-    void TakeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         if (isInvulnerable) return;
 
