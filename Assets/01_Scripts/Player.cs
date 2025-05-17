@@ -10,19 +10,30 @@ public class Player : MonoBehaviour
     public float invulnerabilityDuration = 3f;
     private bool isInvulnerable = false;
     private bool isGrounded;
+    public GameObject bulletPrefab;
+    public float bulletSpeed = 10f;
+    public int bulletDamage = 1;
+    public bool tripleShot = false;
+
+
 
     public Transform groundCheck;
     public LayerMask groundLayer;
-    public Transform firePoint; 
+    public Transform firePoint;
     private Rigidbody2D rb;
     private SpriteRenderer[] sprites;
+    private Animator animator;
+
+
+
+    private Vector2 lastHorizontalDirection = Vector2.right;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sprites = GetComponentsInChildren<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
-    private Vector2 lastHorizontalDirection = Vector2.right; // Por defecto mirando a la derecha owo
 
     void Update()
     {
@@ -31,6 +42,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetTrigger("isJumping");
         }
 
         Vector2 inputDirection = Vector2.zero;
@@ -54,24 +66,21 @@ public class Player : MonoBehaviour
             lastHorizontalDirection = Vector2.left;
         }
 
-        // Mover solo si hay input horizontal
+        // Movimiento horizontal
         if (inputDirection.x != 0)
         {
             float moveX = Mathf.Sign(inputDirection.x) * moveSpeed * Time.deltaTime;
-            transform.Translate(new Vector3(moveX, 0, 0));
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+
         }
 
-        // Flip del player con escala
         if (lastHorizontalDirection == Vector2.right)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
+            transform.rotation = Quaternion.Euler(0, 0, 0); 
         else if (lastHorizontalDirection == Vector2.left)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
+            transform.rotation = Quaternion.Euler(0, 180, 0); 
 
-        // Firepoint direction owo
+
+        // Firepoint dirección
         Vector2 firePointDirection;
 
         if (inputDirection.y != 0)
@@ -87,34 +96,65 @@ public class Player : MonoBehaviour
             firePointDirection = lastHorizontalDirection * 2;
         }
 
-        // Aplicar la posición local del firePoint con flip incluido
-        float flipX = Mathf.Sign(transform.localScale.x); // 1 o -1 dependiendo de si está volteado
-        firePoint.localPosition = new Vector3(firePointDirection.x * flipX, firePointDirection.y, firePoint.localPosition.z);
+        
+        firePoint.localPosition = new Vector3(firePointDirection.x, firePointDirection.y, firePoint.localPosition.z);
 
-        //  ¡Aquí la magia kawaii del ángulo correcto, usando la posición REAL del firePoint!
-        Vector2 realDirection = firePoint.localPosition.normalized;
+        
+        Vector2 realDirection = firePointDirection.normalized;
 
-        //  Detectamos si el player está volteado
-        if (transform.localScale.x < 0)
-        {
-            realDirection.y *= -1; // Invertimos X si está volteado, para que el ángulo sea correcto uwu
-        }
+        
+        if (lastHorizontalDirection == Vector2.left)
+            realDirection.x *= -1;
 
         float angle = Mathf.Atan2(realDirection.y, realDirection.x) * Mathf.Rad2Deg;
         firePoint.rotation = Quaternion.Euler(0, 0, angle);
 
+
+        // ANIMACIONES
+        animator.SetBool("isWalking", inputDirection.x != 0);
+        animator.SetBool("isLookingUp", Input.GetKey(KeyCode.UpArrow));
+        animator.SetBool("isLookingDown", Input.GetKey(KeyCode.DownArrow));
+
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
+        {
+            Shoot();
+        }
+
     }
+
+    void Shoot()
+    {
+        if (tripleShot)
+        {
+            for (int i = -1; i <= 1; i++)
+            {
+                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+                Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+                Vector2 dir = Quaternion.Euler(0, 0, i * 15) * firePoint.right;
+                rb.velocity = dir.normalized * bulletSpeed;
+            }
+        }
+        else
+        {
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.velocity = firePoint.right * bulletSpeed;
+        }
+    }
+
+
 
 
     void TakeDamage(int amount)
     {
-        if (isInvulnerable) return; // uwu no le haces daño si está invulnerable
+        if (isInvulnerable) return;
 
         life -= amount;
+        animator.SetTrigger("isHit");
 
         if (life <= 0)
         {
-            Destroy(gameObject); // Adiós, gatit@ hermoso ;w;
+            Destroy(gameObject);
             return;
         }
 
@@ -129,7 +169,6 @@ public class Player : MonoBehaviour
 
         while (elapsed < invulnerabilityDuration)
         {
-            // ¡Desactiva los sprites para el parpadeo~!
             foreach (var sr in sprites)
                 sr.enabled = false;
 
@@ -143,7 +182,6 @@ public class Player : MonoBehaviour
             elapsed += blinkInterval;
         }
 
-        // Asegura que queden visibles
         foreach (var sr in sprites)
             sr.enabled = true;
 
@@ -161,6 +199,4 @@ public class Player : MonoBehaviour
             }
         }
     }
-
-
 }

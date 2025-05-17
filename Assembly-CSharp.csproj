@@ -56,8 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\01_Scripts\Player.cs" />
     <Compile Include="Assets\01_Scripts\Suelo.cs" />
+    <Compile Include="Assets\01_Scripts\Player.cs" />
+    <Compile Include="Assets\01_Scripts\NormalEnemy.cs" />
+    <Compile Include="Assets\01_Scripts\Bullet.cs" />
+    <Compile Include="Assets\01_Scripts\NormalEnemyShoot.cs" />
+    <Compile Include="Assets\01_Scripts\PowerUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
