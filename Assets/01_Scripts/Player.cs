@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    private int Contador = 0;
+
+
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public int life = 3;
@@ -210,4 +215,12 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    public void SumarDoctor()
+    {
+        Contador++;
+        Debug.Log("Zombies desinfectados por el jugador: " + Contador);
+    }
+
+
 }

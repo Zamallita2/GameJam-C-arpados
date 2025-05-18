@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\",
+  "WorkspaceRootPath": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\carla\\documents\\c-arpados\\gamejam-c-arpados\\assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\kevin prieto\\desktop\\c-arpado\\gamejam-c-arpados\\assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\zombiecounterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\zombiecounterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Normal-Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\01_Scripts\\Normal-Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\assets\\01_scripts\\suelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\suelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\suelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,27 +38,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:186457320:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ZombieCounterUI.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\ZombieCounterUI.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\ZombieCounterUI.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\ZombieCounterUI.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\ZombieCounterUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T02:33:42.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PowerUp.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\PowerUp.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\PowerUp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,75 +70,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NormalEnemyShoot.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemyShoot.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemyShoot.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemyShoot.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemyShoot.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemyShoot.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\NormalEnemyShoot.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvx8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T21:43:04.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NormalEnemy.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemy.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\NormalEnemy.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwF4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T21:42:54.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Bullet.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:20:51.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T21:20:51.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAqwJMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAADwv4wAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:13:08.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T04:13:08.381Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Normal-Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Normal-Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Normal-Enemy.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Normal-Enemy.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\Normal-Enemy.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T19:21:38.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Suelo.cs",
-              "DocumentMoniker": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Suelo.cs",
-              "ToolTip": "C:\\Users\\CARLA\\Documents\\C-arpados\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
+              "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Suelo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAhwA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T05:45:02.33Z"
             }

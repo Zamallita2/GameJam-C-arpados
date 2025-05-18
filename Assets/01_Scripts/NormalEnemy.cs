@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class NormalEnemy : MonoBehaviour
 {
+    public GameObject pasiveEnemyPrefab;
+
     public float moveSpeed = 2f;
     public float detectionRange = 10f;
     public float jumpForce = 6f;
@@ -94,12 +96,43 @@ public class NormalEnemy : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
+        Debug.Log("Daño recibido. Vida restante: " + currentHealth);
+
         if (currentHealth <= 0)
         {
+            Debug.Log("Murió el zombie");
+
             DropPowerUp();
+
+            // Instanciar el doctor con 60% de probabilidad
+            if (pasiveEnemyPrefab != null)
+            {
+                float chance = Random.value; // 0.0 a 1.0
+                if (chance < 0.6f) // 60% de probabilidad
+                {
+                    Instantiate(pasiveEnemyPrefab, transform.position, Quaternion.identity);
+                    FindObjectOfType<Player>()?.SumarDoctor(); //para el contador de doctores
+
+                    ZombieCounterUI.instance?.IncrementCounter(); // << AQUI está la línea que faltaba
+                    Debug.Log("Doctor instanciado (60%)");
+                }
+                else
+                {
+                    Debug.Log("No se instancia doctor (40%)");
+                }
+            }
+            else
+            {
+                Debug.LogWarning("pasiveEnemyPrefab está vacío");
+            }
+
             Destroy(gameObject);
         }
     }
+
+
+
+
 
     void DropPowerUp()
     {
