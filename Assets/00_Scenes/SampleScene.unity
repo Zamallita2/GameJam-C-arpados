@@ -882,10 +882,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1165975996605436024, guid: e1c538e4269ebe04d9e55292611cf1bb, type: 3}
-      propertyPath: pasiveEnemyPrefab
-      value: 
-      objectReference: {fileID: 2366156299778348624, guid: 77e040e2a42a08c4f9dc34beaf117d0e, type: 3}
     - target: {fileID: 5862838745741299588, guid: e1c538e4269ebe04d9e55292611cf1bb, type: 3}
       propertyPath: m_Name
       value: Shooter-Enemy

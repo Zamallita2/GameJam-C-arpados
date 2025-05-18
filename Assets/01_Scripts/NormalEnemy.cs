@@ -122,21 +122,19 @@ public class NormalEnemy : MonoBehaviour
 
             DropPowerUp();
 
-            /*// Instanciar el doctor con 60% de probabilidad
+            // Instanciar el doctor con 60% de probabilidad
             if (pasiveEnemyPrefab != null && isDoctor)
             {
                 float chance = Random.value; // 0.0 a 1.0
                 if (chance < 0.6f) // 60% de probabilidad
                 {
-                    Instantiate(pasiveEnemyPrefab
-                        , transform.position, Quaternion.identity);
+                    Instantiate(pasiveEnemyPrefab, transform.position, Quaternion.identity);
                     FindObjectOfType<Player>()?.SumarDoctor(); //para el contador de doctores
 
                 }
-            }*/
+            }
 
             Destroy(gameObject);
-            
         }
     }
 
