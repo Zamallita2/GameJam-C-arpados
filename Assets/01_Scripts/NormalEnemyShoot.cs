@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class NormalEnemyShoot : MonoBehaviour
 {
+
+    public GameObject pasiveEnemyPrefab;
+
+
     public float shootCooldown = 2f;
     public float visionRange = 6f;
     public float bulletSpeed = 30f;
@@ -126,6 +130,13 @@ public class NormalEnemyShoot : MonoBehaviour
             Instantiate(powerUps[index], transform.position, Quaternion.identity);
         }
 
+        // Instanciar el doctor (pasive)
+        if (pasiveEnemyPrefab != null)
+        {
+            Instantiate(pasiveEnemyPrefab, transform.position, Quaternion.identity);
+        }
+
         Destroy(gameObject);
     }
+
 }
