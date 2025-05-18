@@ -9,6 +9,8 @@ public class NormalEnemy : MonoBehaviour
     public float jumpForce = 6f;
     public int maxHealth = 3;
 
+    public bool isDoctor;
+
     public Transform groundCheck;
     public LayerMask groundLayer;
     public Transform player;
@@ -23,6 +25,8 @@ public class NormalEnemy : MonoBehaviour
     private float idleDuration = 0f;
     private int idleDirection = 1; // -1 izquierda, 1 derecha
 
+    private Animator Anim;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -30,6 +34,7 @@ public class NormalEnemy : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         SetRandomDirection();
+        Anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -51,19 +56,34 @@ public class NormalEnemy : MonoBehaviour
 
     void MoveTowardsPlayer()
     {
-        float dirX = Mathf.Sign(player.position.x - transform.position.x);
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        float distanceX = player.position.x - transform.position.x;
 
-        // Girar según dirección del jugador
-        if ((dirX > 0 && !isFacingRight) || (dirX < 0 && isFacingRight))
-            Flip();
+        // No moverse si están demasiado cerca
+        if (Mathf.Abs(distanceX) > 0.1f)
+        {
+            float dirX = Mathf.Sign(distanceX);
+            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+            Anim.SetBool("IsWalking", true);
 
-        // Saltar si están casi alineados y tocando el suelo
-        if (isGrounded && Mathf.Abs(player.position.x - transform.position.x) < 1.5f)
+            // Girar según dirección del jugador
+            if ((dirX > 0 && !isFacingRight) || (dirX < 0 && isFacingRight))
+                Flip();
+        }
+        else
+        {
+            // Detenerse si está muy cerca
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            Anim.SetBool("IsWalking", false);
+        }
+
+        // Saltar si están alineados y tocando el suelo
+        if (isGrounded && Mathf.Abs(distanceX) < 1.5f)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Anim.SetTrigger("IsJumping");
         }
     }
+
 
     void Patrol()
     {
@@ -96,16 +116,14 @@ public class NormalEnemy : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
-        Debug.Log("Daño recibido. Vida restante: " + currentHealth);
 
         if (currentHealth <= 0)
         {
-            Debug.Log("Murió el zombie");
 
             DropPowerUp();
 
             // Instanciar el doctor con 60% de probabilidad
-            if (pasiveEnemyPrefab != null)
+            if (pasiveEnemyPrefab != null && isDoctor)
             {
                 float chance = Random.value; // 0.0 a 1.0
                 if (chance < 0.6f) // 60% de probabilidad
@@ -113,17 +131,7 @@ public class NormalEnemy : MonoBehaviour
                     Instantiate(pasiveEnemyPrefab, transform.position, Quaternion.identity);
                     FindObjectOfType<Player>()?.SumarDoctor(); //para el contador de doctores
 
-                    ZombieCounterUI.instance?.IncrementCounter(); // << AQUI está la línea que faltaba
-                    Debug.Log("Doctor instanciado (60%)");
                 }
-                else
-                {
-                    Debug.Log("No se instancia doctor (40%)");
-                }
-            }
-            else
-            {
-                Debug.LogWarning("pasiveEnemyPrefab está vacío");
             }
 
             Destroy(gameObject);

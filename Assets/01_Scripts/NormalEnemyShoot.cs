@@ -12,6 +12,7 @@ public class NormalEnemyShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject[] powerUps;
     public Rigidbody2D rb;
+    private Animator Anim;
 
     private float lastShootTime;
     private bool isFacingRight = true;
@@ -30,6 +31,8 @@ public class NormalEnemyShoot : MonoBehaviour
         }
 
         SetRandomDirection();
+
+        Anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -61,12 +64,15 @@ public class NormalEnemyShoot : MonoBehaviour
 
         if ((dirX > 0 && !isFacingRight) || (dirX < 0 && isFacingRight))
             Flip();
+
+        Anim.SetBool("IsWalking", false);
     }
 
     void Patrol()
     {
         idleTimer += Time.deltaTime;
         rb.velocity = new Vector2(idleDirection * moveSpeed, rb.velocity.y);
+        Anim.SetBool("IsWalking", true);
 
         if ((idleDirection > 0 && !isFacingRight) || (idleDirection < 0 && isFacingRight))
             Flip();
@@ -93,6 +99,7 @@ public class NormalEnemyShoot : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, shootPoint.position, Quaternion.identity);
+        Anim.SetTrigger("IsShooting");
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         if (rb != null && player != null)

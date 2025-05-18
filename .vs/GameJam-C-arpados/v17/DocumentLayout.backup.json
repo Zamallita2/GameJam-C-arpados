@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\kevin prieto\\desktop\\c-arpado\\gamejam-c-arpados\\assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\assets\\01_scripts\\suelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ZombieCounterUI.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\ZombieCounterUI.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\ZombieCounterUI.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NormalEnemyShoot.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemyShoot.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemyShoot.cs",
@@ -82,20 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NormalEnemy.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemy.cs",
               "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\NormalEnemy.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T21:42:54.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Bullet.cs",
@@ -107,15 +107,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\Kevin Prieto\\Desktop\\C-arpado\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAADwv4wAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:13:08.381Z"
+              "WhenOpened": "2025-05-16T04:13:08.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

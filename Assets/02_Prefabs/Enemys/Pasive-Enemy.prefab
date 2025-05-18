@@ -169,6 +169,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &620158831093490432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542651770623405630}
+  m_Layer: 0
+  m_Name: GroundChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542651770623405630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620158831093490432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8405053860482340006}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882579602764881905
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,12 +372,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8405053860482340006}
+  - component: {fileID: 6540432221451229757}
   - component: {fileID: 6513059983603474758}
   - component: {fileID: 8283634576015863134}
   - component: {fileID: 7096810622910961585}
   m_Layer: 0
   m_Name: Pasive-Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -364,9 +395,35 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5270073303810795317}
+  - {fileID: 542651770623405630}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6540432221451229757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366156299778348624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99566b306be85d5449b4eeebccd3b54b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pasiveEnemyPrefab: {fileID: 3883585946117292189, guid: b4dac8463abe0db449bc2e80f9f3cc6f, type: 3}
+  moveSpeed: 2
+  detectionRange: 10
+  jumpForce: 6
+  maxHealth: 3
+  isDoctor: 1
+  groundCheck: {fileID: 542651770623405630}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  player: {fileID: 0}
+  rb: {fileID: 7096810622910961585}
+  powerUpPrefabs: []
 --- !u!212 &6513059983603474758
 SpriteRenderer:
   m_ObjectHideFlags: 0
