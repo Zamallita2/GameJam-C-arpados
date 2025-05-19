@@ -51,5 +51,12 @@ public class Bullet : MonoBehaviour
             //Instantiate(effect, transform.position, Quaternion.Euler(0, 0, 0));
             Destroy(gameObject); // ¡Splaaash del moco verde! 
         }
+        else if (collision.gameObject.CompareTag("Pasive") && playerBullet)
+        {
+            Amigable t = collision.gameObject.GetComponent<Amigable>();
+            t.TakeDamage(damage);
+            //Instantiate(effect, transform.position, Quaternion.Euler(0, 0, 0));
+            Destroy(gameObject); // ¡Splaaash del moco verde! 
+        }
     }
 }

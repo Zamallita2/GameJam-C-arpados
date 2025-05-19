@@ -2,14 +2,10 @@ using UnityEngine;
 
 public class NormalEnemy : MonoBehaviour
 {
-    public GameObject pasiveEnemyPrefab;
-
     public float moveSpeed = 2f;
     public float detectionRange = 10f;
     public float jumpForce = 6f;
     public int maxHealth = 3;
-
-    public bool isDoctor;
 
     public Transform groundCheck;
     public LayerMask groundLayer;
@@ -121,26 +117,9 @@ public class NormalEnemy : MonoBehaviour
         {
 
             DropPowerUp();
-
-            // Instanciar el doctor con 60% de probabilidad
-            if (pasiveEnemyPrefab != null && isDoctor)
-            {
-                float chance = Random.value; // 0.0 a 1.0
-                if (chance < 0.6f) // 60% de probabilidad
-                {
-                    Instantiate(pasiveEnemyPrefab, transform.position, Quaternion.identity);
-                    FindObjectOfType<Player>()?.SumarDoctor(); //para el contador de doctores
-
-                }
-            }
-
             Destroy(gameObject);
         }
     }
-
-
-
-
 
     void DropPowerUp()
     {

@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     private bool isInvulnerable = false;
 
     [Header("Disparo")]
-    public GameObject bulletPrefab;
+    public Bullet bulletPrefab;
     public float bulletSpeed = 10f;
     public int bulletDamage = 1;
     public bool tripleShot = false;
@@ -135,7 +135,8 @@ public class Player : MonoBehaviour
         {
             for (int i = -1; i <= 1; i++)
             {
-                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+                Bullet bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+                bullet.damage = bulletDamage;
                 Rigidbody2D rbBullet = bullet.GetComponent<Rigidbody2D>();
                 Vector2 dir = (Quaternion.Euler(0, 0, i * 15) * firePoint.right).normalized;
                 rbBullet.velocity = dir * bulletSpeed;
@@ -144,7 +145,8 @@ public class Player : MonoBehaviour
         }
         else
         {
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Bullet bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            bullet.damage = bulletDamage;
             Rigidbody2D rbBullet = bullet.GetComponent<Rigidbody2D>();
             rbBullet.velocity = firePoint.right * bulletSpeed;
             Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), GetComponent<Collider2D>());

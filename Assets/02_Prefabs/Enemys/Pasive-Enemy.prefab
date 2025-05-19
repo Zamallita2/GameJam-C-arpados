@@ -269,7 +269,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 8619385452201323568, guid: 2d79f654530546e4dbdbcc73926c2da7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -372,13 +372,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8405053860482340006}
-  - component: {fileID: 6540432221451229757}
+  - component: {fileID: 4666829974680525402}
   - component: {fileID: 6513059983603474758}
   - component: {fileID: 8283634576015863134}
   - component: {fileID: 7096810622910961585}
+  - component: {fileID: 1951497751787781805}
   m_Layer: 0
   m_Name: Pasive-Enemy
-  m_TagString: Enemy
+  m_TagString: Pasive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,7 +400,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6540432221451229757
+--- !u!114 &4666829974680525402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -408,22 +409,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2366156299778348624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99566b306be85d5449b4eeebccd3b54b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d537cb9aacdab648b5e3794fdc884a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  life: 20
   pasiveEnemyPrefab: {fileID: 3883585946117292189, guid: b4dac8463abe0db449bc2e80f9f3cc6f, type: 3}
-  moveSpeed: 2
-  detectionRange: 10
-  jumpForce: 6
-  maxHealth: 3
-  isDoctor: 1
-  groundCheck: {fileID: 542651770623405630}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  player: {fileID: 0}
-  rb: {fileID: 7096810622910961585}
-  powerUpPrefabs: []
+  moveSpeed: 10
 --- !u!212 &6513059983603474758
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -522,6 +513,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1951497751787781805
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366156299778348624}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5dfb102c6edf514688573ecfbd86cf7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2464831095000679799
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,7 +687,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 3872789938766720996, guid: 2d79f654530546e4dbdbcc73926c2da7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

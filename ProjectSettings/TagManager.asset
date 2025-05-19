@@ -9,6 +9,7 @@ TagManager:
   - ShooterEnemy
   - Floor
   - Portal
+  - Pasive
   layers:
   - Default
   - TransparentFX
