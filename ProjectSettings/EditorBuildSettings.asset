@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00_Scenes/Alcantarilla.unity
     guid: 7ef33dbfe7ac66846b9a117e1c7411b5
+  - enabled: 1
+    path: Assets/00_Scenes/Boss.unity
+    guid: b54cb7adb0fc18d428ba5aa3520f7df4
   m_configObjects: {}

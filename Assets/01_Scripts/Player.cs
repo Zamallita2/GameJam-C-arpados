@@ -137,6 +137,7 @@ public class Player : MonoBehaviour
             {
                 Bullet bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
                 bullet.damage = bulletDamage;
+                bullet.contador = Contador;
                 Rigidbody2D rbBullet = bullet.GetComponent<Rigidbody2D>();
                 Vector2 dir = (Quaternion.Euler(0, 0, i * 15) * firePoint.right).normalized;
                 rbBullet.velocity = dir * bulletSpeed;
@@ -147,6 +148,7 @@ public class Player : MonoBehaviour
         {
             Bullet bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             bullet.damage = bulletDamage;
+            bullet.contador = Contador;
             Rigidbody2D rbBullet = bullet.GetComponent<Rigidbody2D>();
             rbBullet.velocity = firePoint.right * bulletSpeed;
             Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), GetComponent<Collider2D>());

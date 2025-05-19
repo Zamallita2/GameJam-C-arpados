@@ -3,9 +3,11 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int damage = 1; // Usa el valor de daño que desees
-    public float lifeTime = 2f;
+    public float lifeTime = 6f;
     public GameObject toxic;
     public bool playerBullet;
+
+    public int contador=0;
 
     void Start()
     {
@@ -51,10 +53,35 @@ public class Bullet : MonoBehaviour
             //Instantiate(effect, transform.position, Quaternion.Euler(0, 0, 0));
             Destroy(gameObject); // ¡Splaaash del moco verde! 
         }
+        else if (collision.gameObject.CompareTag("Plataform") && !playerBullet)
+        {
+            float chance = Random.value;
+            if (chance <= 0.3f)
+            {
+                Instantiate(toxic, new Vector3(transform.position.x, transform.position.y - 0.2f, 0), Quaternion.Euler(0, 0, 0));
+                //Instantiate(effect, transform.position, Quaternion.Euler(0, 0, 0));
+                Destroy(gameObject); // ¡Splaaash del moco verde! 
+            }
+        }
         else if (collision.gameObject.CompareTag("Pasive") && playerBullet)
         {
             Amigable t = collision.gameObject.GetComponent<Amigable>();
             t.TakeDamage(damage);
+            //Instantiate(effect, transform.position, Quaternion.Euler(0, 0, 0));
+            Destroy(gameObject); // ¡Splaaash del moco verde! 
+        }
+        else if (collision.gameObject.CompareTag("Boss") && playerBullet)
+        {
+            Boss t = collision.gameObject.GetComponent<Boss>();
+            if (contador > 0)
+            {
+                t.TakeDamage(damage);
+            }
+            else
+            {
+                t.TakeDamage(0);
+                
+            }
             //Instantiate(effect, transform.position, Quaternion.Euler(0, 0, 0));
             Destroy(gameObject); // ¡Splaaash del moco verde! 
         }
