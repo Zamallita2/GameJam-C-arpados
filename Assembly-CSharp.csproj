@@ -63,10 +63,14 @@
     <Compile Include="Assets\01_Scripts\Suelo.cs" />
     <Compile Include="Assets\01_Scripts\Player.cs" />
     <Compile Include="Assets\01_Scripts\NormalEnemyShoot.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\01_Scripts\NextLevelTrigger.cs" />
     <Compile Include="Assets\01_Scripts\CameraController.cs" />
     <Compile Include="Assets\01_Scripts\SceneSpawner.cs" />
     <Compile Include="Assets\01_Scripts\GameManager.cs" />
+=======
+    <Compile Include="Assets\01_Scripts\SeguiminentoCamara.cs" />
+>>>>>>> 9de257ffcd75950c3df588ff3c2d2687817a10bd
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
