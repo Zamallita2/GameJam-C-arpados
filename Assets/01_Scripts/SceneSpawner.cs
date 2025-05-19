@@ -2,25 +2,20 @@ using UnityEngine;
 
 public class SceneSpawner : MonoBehaviour
 {
-    [Tooltip("Dónde debe reaparecer el jugador")]
-    public Vector2 spawnPosition = new Vector2(-23.91f, -10.04f);
+    public GameObject playerPrefab;
+    public Vector2 spawnPosition = Vector2.zero;
 
     void Start()
     {
+        // si no has definido un spawn, no hace nada
+        if (spawnPosition == Vector2.zero) return;
+
+        // busca al Player existente (o instáncialo si usas prefab)
         var player = GameObject.FindGameObjectWithTag("Player");
-        if (player == null)
+        if (player != null)
         {
-            Debug.LogError("No encontré al Player con tag 'Player'");
-            return;
+            player.transform.position =
+                new Vector3(spawnPosition.x, spawnPosition.y, player.transform.position.z);
         }
-
-        // Mensaje de debug para verificar que esto se está ejecutando
-        Debug.Log($"[SceneSpawner] Recolocando Player a {spawnPosition}");
-
-        player.transform.position = new Vector3(
-            spawnPosition.x,
-            spawnPosition.y,
-            player.transform.position.z
-        );
     }
 }

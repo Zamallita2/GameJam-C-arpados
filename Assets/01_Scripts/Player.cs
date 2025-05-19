@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     [Header("Contador")]
-    [SerializeField] private int Contador = 0;
+    public int Contador = 0;
 
     [Header("Movimiento y Salto")]
     public float moveSpeed = 5f;
@@ -28,8 +28,8 @@ public class Player : MonoBehaviour
     private string lastRot = "D";
 
     [Header("Teletransporte")]
-    [Tooltip("Nombre exacto de la escena a cargar (sin .unity)")]
-    [SerializeField] private string nextSceneName;
+    [Tooltip("Nombre exacto de la escena que quieres cargar (sin .unity)")]
+    public string nextSceneName;
 
     // Componentes internos
     private Rigidbody2D rb;
@@ -37,21 +37,24 @@ public class Player : MonoBehaviour
     private Animator animator;
     private bool isGrounded;
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sprites = GetComponentsInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
+    }
 
-        // ─── Carga los stats y power-ups guardados ────────────────────
+    void Start()
+    {
+        // Carga los stats y power-ups guardados
         if (GameManager.Instance != null)
         {
             Contador = GameManager.Instance.Contador;
             life = GameManager.Instance.life;
             bulletDamage = GameManager.Instance.bulletDamage;
             tripleShot = GameManager.Instance.tripleShot;
+            Debug.Log($"[Player] Stats cargados → Contador={Contador}, life={life}, dmg={bulletDamage}, 3xShot={tripleShot}");
         }
-        // ──────────────────────────────────────────────────────────────
     }
 
     void Update()
@@ -68,7 +71,7 @@ public class Player : MonoBehaviour
         // Movimiento derecha
         else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.identity;
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
             firePoint.rotation = Quaternion.Euler(0, 0, 0);
             firePoint.localPosition = new Vector2(1.44f, 0f);
@@ -83,24 +86,24 @@ public class Player : MonoBehaviour
             firePoint.localPosition = new Vector2(1.44f, 0f);
             lastRot = "I";
         }
-        // Mirar arriba
+        // Apuntar arriba
         else if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             firePoint.rotation = Quaternion.Euler(0, 0, 90);
             firePoint.localPosition = new Vector2(0f, 1.7f);
         }
-        // Mirar abajo
+        // Apuntar abajo
         else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             firePoint.rotation = Quaternion.Euler(0, 0, -90);
             firePoint.localPosition = new Vector2(0f, -1.4f);
         }
-        // Posición por defecto
+        // Orientación por defecto
         else
         {
             if (lastRot == "D")
             {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.identity;
                 firePoint.rotation = Quaternion.Euler(0, 0, 0);
                 firePoint.localPosition = new Vector2(1.44f, 0f);
             }
@@ -159,6 +162,7 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         StartCoroutine(InvulnerabilityTimer());
     }
 
@@ -182,7 +186,7 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Si toca el portal, guarda stats y power-ups, luego cambia de escena
+        // Portal: guarda stats/power-ups y cambia de escena
         if (other.CompareTag("Portal"))
         {
             if (GameManager.Instance != null)
@@ -197,7 +201,7 @@ public class Player : MonoBehaviour
             return;
         }
 
-        // Si es tóxico
+        // Suelo tóxico
         if (other.CompareTag("Toxic"))
         {
             Suelo toxic = other.GetComponent<Suelo>();
@@ -209,5 +213,6 @@ public class Player : MonoBehaviour
     public void SumarDoctor()
     {
         Contador++;
+        Debug.Log($"[Player] SumarDoctor → Contador ahora {Contador}");
     }
 }

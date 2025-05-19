@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\gamejam-c-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\gamejam-c-arpados\\assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\acer\\desktop\\gamejam-c-arpados\\assets\\01_scripts\\seguimientocamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\01_scripts\\seguimientocamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\acer\\desktop\\gamejam-c-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\nextleveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\nextleveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\zombiecounterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\zombiecounterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\SeguimientoCamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\01_Scripts\\SeguimientoCamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\GameManager.cs",
@@ -66,18 +66,17 @@
               "RelativeToolTip": "Assets\\01_Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:23:27.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T01:23:27.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "SceneSpawner.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\SceneSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\SceneSpawner.cs",
               "ToolTip": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\SceneSpawner.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\SceneSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T01:06:13.099Z",
               "EditorCaption": ""
@@ -90,25 +89,25 @@
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\SeguimientoCamara.cs",
               "ToolTip": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\SeguimientoCamara.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\SeguimientoCamara.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T00:30:39.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "NextLevelTrigger.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\NextLevelTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NextLevelTrigger.cs",
               "ToolTip": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\NextLevelTrigger.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\NextLevelTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:24:22.524Z"
+              "WhenOpened": "2025-05-19T00:24:22.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ZombieCounterUI.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\ZombieCounterUI.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\ZombieCounterUI.cs",
@@ -116,17 +115,18 @@
               "RelativeToolTip": "Assets\\01_Scripts\\ZombieCounterUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T02:33:42.465Z"
+              "WhenOpened": "2025-05-18T02:33:42.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PowerUp.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\PowerUp.cs",
               "ToolTip": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\PowerUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T21:44:00.686Z",
               "EditorCaption": ""
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "NormalEnemy.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemy.cs",
@@ -154,8 +154,7 @@
               "RelativeToolTip": "Assets\\01_Scripts\\NormalEnemy.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAmwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:42:54.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T21:42:54.279Z"
             },
             {
               "$type": "Document",
@@ -171,13 +170,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAKUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAUwNoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T04:13:08.381Z",
               "EditorCaption": ""
