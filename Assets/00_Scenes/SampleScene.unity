@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2483943df9d4f4408e9948cb0127356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: sceneBosque
+  nextSceneName: 2BOSQUE
 --- !u!4 &822634058
 Transform:
   m_ObjectHideFlags: 0
@@ -2349,7 +2349,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.122654
+  orthographic size: 13.924517
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

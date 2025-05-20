@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\nicolas\\unity\\gamejam-c-arpados\\assets\\01_scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\nextleveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\nextleveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\nicolas\\unity\\gamejam-c-arpados\\assets\\01_scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\nicolas\\unity\\gamejam-c-arpados\\assets\\01_scripts\\bosseje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\bosseje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\normalenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|c:\\users\\nicolas\\unity\\gamejam-c-arpados\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\normalenemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\amigable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\nextleveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\nextleveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\scenespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3377EFD-3FA9-07CA-B8FB-0CB30284AFCD}|Assembly-CSharp.csproj|C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\assets\\01_scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,46 +77,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "BossEje.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\BossEje.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\BossEje.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\BossEje.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\BossEje.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:38:59.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Boss.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Boss.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Boss.cs",
               "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Boss.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Boss.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAADwv1oAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwGgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T16:31:00.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "NextLevelTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NextLevelTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\NextLevelTrigger.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NextLevelTrigger.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\NextLevelTrigger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:24:22.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Bullet.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:20:51.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAowJMAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAvwMsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T04:13:08.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NormalEnemy.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemy.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\NormalEnemy.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAqwG8AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SceneSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\SceneSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\SceneSpawner.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\SceneSpawner.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\SceneSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:42:54.279Z",
+              "WhenOpened": "2025-05-19T01:06:13.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\GameManager.cs",
@@ -120,23 +163,12 @@
               "RelativeToolTip": "Assets\\01_Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:23:27.448Z"
+              "WhenOpened": "2025-05-19T01:23:27.448Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NextLevelTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NextLevelTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\NextLevelTrigger.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NextLevelTrigger.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\NextLevelTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:24:22.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NormalEnemyShoot.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemyShoot.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemyShoot.cs",
@@ -148,20 +180,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "NormalEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\NormalEnemy.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\NormalEnemy.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\NormalEnemy.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAqwG8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:20:51.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T21:42:54.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Amigable.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Amigable.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Amigable.cs",
@@ -173,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\CameraController.cs",
@@ -185,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PowerUp.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\PowerUp.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\PowerUp.cs",
@@ -197,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ZombieCounterUI.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\ZombieCounterUI.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\ZombieCounterUI.cs",
@@ -209,19 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SceneSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\SceneSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\SceneSpawner.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\SceneSpawner.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\SceneSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T01:06:13.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SeguimientoCamara.cs",
               "DocumentMoniker": "C:\\Users\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\SeguimientoCamara.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\acer\\Desktop\\GameJam-C-arpados\\Assets\\01_Scripts\\SeguimientoCamara.cs",
@@ -233,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Suelo.cs",
               "DocumentMoniker": "C:\\Users\\Nicolas\\Unity\\GameJam-C-arpados\\Assets\\01_Scripts\\Suelo.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Suelo.cs",

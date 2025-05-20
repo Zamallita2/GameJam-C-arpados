@@ -6,15 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/00_Scenes/MainMenu.unity
+    guid: c2622b2a509b7a34593efa081bf03338
+  - enabled: 1
     path: Assets/00_Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/00_Scenes/sceneBosque.unity
+    path: Assets/00_Scenes/sceneBosque 1.unity
+    guid: 80a77e60b08595b4bab242e604356595
+  - enabled: 1
+    path: Assets/00_Scenes/2BOSQUE.unity
     guid: 952e8dd1aadbefd40a7a34943810ce05
   - enabled: 1
     path: Assets/00_Scenes/Alcantarilla.unity
     guid: 7ef33dbfe7ac66846b9a117e1c7411b5
   - enabled: 1
+    path: Assets/00_Scenes/Laberint.unity
+    guid: 38b317dda6a5b104bbe3d642a863d1e1
+  - enabled: 1
     path: Assets/00_Scenes/Boss.unity
     guid: b54cb7adb0fc18d428ba5aa3520f7df4
+  - enabled: 1
+    path: Assets/00_Scenes/FInal.unity
+    guid: ebe6340d1047591468911b50db204e32
   m_configObjects: {}
