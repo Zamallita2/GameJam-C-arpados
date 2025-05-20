@@ -23,6 +23,7 @@ public class NormalEnemy : MonoBehaviour
 
     private Animator Anim;
 
+
     void Start()
     {
         currentHealth = maxHealth;

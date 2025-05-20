@@ -13,6 +13,10 @@ public class NormalEnemyShoot : MonoBehaviour
     public GameObject[] powerUps;
     public Rigidbody2D rb;
     private Animator Anim;
+    [Header("Audio")]
+    public AudioClip hitSound;
+    private AudioSource audioSource;
+
 
     private float lastShootTime;
     private bool isFacingRight = true;
@@ -28,6 +32,8 @@ public class NormalEnemyShoot : MonoBehaviour
             GameObject p = GameObject.FindGameObjectWithTag("Player");
             if (p != null)
                 player = p.transform;
+            audioSource = GetComponent<AudioSource>();
+
         }
 
         SetRandomDirection();
@@ -111,12 +117,16 @@ public class NormalEnemyShoot : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (hitSound != null && audioSource != null)
+            audioSource.PlayOneShot(hitSound);
+
         life -= damage;
         if (life <= 0)
         {
             Die();
         }
     }
+
 
     void Die()
     {

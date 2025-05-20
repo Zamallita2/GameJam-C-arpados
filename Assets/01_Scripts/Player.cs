@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     [Header("Contador")]
+    public AudioClip shootSound;
+    private AudioSource audioSource;
+
     public int Contador = 0;
 
     [Header("Movimiento y Salto")]
@@ -42,7 +45,9 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sprites = GetComponentsInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>(); // ← ESTA LÍNEA
     }
+
 
     void Start()
     {
@@ -131,6 +136,8 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
+        audioSource.PlayOneShot(shootSound);
+
         if (tripleShot)
         {
             for (int i = -1; i <= 1; i++)
