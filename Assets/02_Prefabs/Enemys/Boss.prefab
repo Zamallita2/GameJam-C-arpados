@@ -228,8 +228,10 @@ MonoBehaviour:
   tiempoDisparo: 5
   enemyPrefab: {fileID: 5862838745741299588, guid: e1c538e4269ebe04d9e55292611cf1bb, type: 3}
   animator: {fileID: 3144575176070882154}
+  explosionBoss: {fileID: 3976189116453510955, guid: 48ad67780702dff42b747f5bb6e59298, type: 3}
   ojo: {fileID: 5480181957471062837, guid: b0d66ab019cd3e241ab78ae7cd48cdb2, type: 3}
   playerTransform: {fileID: 0}
+  fase2Sound: {fileID: 0}
 --- !u!50 &3887091038942445897
 Rigidbody2D:
   serializedVersion: 4

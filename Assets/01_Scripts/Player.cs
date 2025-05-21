@@ -40,6 +40,8 @@ public class Player : MonoBehaviour
     private Animator animator;
     private bool isGrounded;
 
+    public GameObject explosionPlayer;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -170,6 +172,7 @@ public class Player : MonoBehaviour
         animator.SetTrigger("isHit");
         if (life <= 0)
         {
+            Instantiate(explosionPlayer, transform.position, Quaternion.identity);
             Destroy(gameObject);
             return;
         }

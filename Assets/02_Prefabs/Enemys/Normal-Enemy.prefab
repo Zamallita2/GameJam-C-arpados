@@ -79,12 +79,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99566b306be85d5449b4eeebccd3b54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pasiveEnemyPrefab: {fileID: 3883585946117292189, guid: b4dac8463abe0db449bc2e80f9f3cc6f, type: 3}
   moveSpeed: 2
   detectionRange: 20
   jumpForce: 11
   maxHealth: 3
-  isDoctor: 0
   groundCheck: {fileID: 2342234396389283501}
   groundLayer:
     serializedVersion: 2
@@ -95,6 +93,7 @@ MonoBehaviour:
   - {fileID: 7653087723818656370, guid: cbe4417abbaf4da4b96ce22c24808d67, type: 3}
   - {fileID: 5173091682321088395, guid: 4e500950ecc28b149acdb6066cfc9c94, type: 3}
   - {fileID: 581054671271094555, guid: dfb0db017727b264fbbca3def05b5be9, type: 3}
+  explosionEnemy: {fileID: 7663448951465066007, guid: 86a9be13552cd064cb6ff0ed28fdfb58, type: 3}
 --- !u!212 &4732167350492546111
 SpriteRenderer:
   m_ObjectHideFlags: 0

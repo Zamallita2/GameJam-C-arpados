@@ -1665,6 +1665,7 @@ MonoBehaviour:
   tripleShot: 0
   firePoint: {fileID: 452026545}
   nextSceneName: 
+  explosionPlayer: {fileID: 7663448951465066007, guid: 37a832687327ea446becd2fe94dddd55, type: 3}
 --- !u!4 &1386931436
 Transform:
   m_ObjectHideFlags: 0

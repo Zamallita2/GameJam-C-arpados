@@ -675,6 +675,8 @@ MonoBehaviour:
   - {fileID: 5173091682321088395, guid: 4e500950ecc28b149acdb6066cfc9c94, type: 3}
   - {fileID: 581054671271094555, guid: dfb0db017727b264fbbca3def05b5be9, type: 3}
   rb: {fileID: 4903682178110213859}
+  hitSound: {fileID: 0}
+  explosionEnemy: {fileID: 7663448951465066007, guid: 86a9be13552cd064cb6ff0ed28fdfb58, type: 3}
 --- !u!212 &8724802753112386537
 SpriteRenderer:
   m_ObjectHideFlags: 0

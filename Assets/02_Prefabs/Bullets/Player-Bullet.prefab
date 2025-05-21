@@ -52,6 +52,8 @@ MonoBehaviour:
   lifeTime: 6
   toxic: {fileID: 0}
   playerBullet: 1
+  contador: 0
+  explosionProjectile: {fileID: 1049399902223849043, guid: 4df95d08b4f0a78459d1172f6816117f, type: 3}
 --- !u!212 &2646346646111928061
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -20,8 +20,10 @@ public class NormalEnemy : MonoBehaviour
     private float idleTimer = 0f;
     private float idleDuration = 0f;
     private int idleDirection = 1; // -1 izquierda, 1 derecha
+    
 
     private Animator Anim;
+    public GameObject explosionEnemy;
 
 
     void Start()
@@ -116,7 +118,7 @@ public class NormalEnemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-
+            Instantiate(explosionEnemy, transform.position, Quaternion.identity);
             DropPowerUp();
             Destroy(gameObject);
         }

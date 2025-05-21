@@ -23,7 +23,7 @@ public class Boss : MonoBehaviour
 
     [Header("Animaciones")]
     public Animator animator;
-
+    public GameObject explosionBoss;
 
     [Header("Ojito perseguidor")]
     public GameObject ojo; // Asigna el GameObject "Ojo"
@@ -149,6 +149,7 @@ public class Boss : MonoBehaviour
 
         if (vida <= 0)
         {
+            Instantiate(explosionBoss, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
